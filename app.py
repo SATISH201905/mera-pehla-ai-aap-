@@ -15,5 +15,6 @@ client = openAI(
 sawal = st.text_input("mujhse kuch bhi pucho:")
 
 iif sawal:
-          response = client.chat.completions.create(
-                   model="11ama -3.3-7
+          response = client.chat.completions.create(model="11ama-3.3-70b-versatile",messages=[{"role": "user", "content":sama1}])
+          st.success(response.choices[0].message.content)
+                   
