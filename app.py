@@ -1,4 +1,4 @@
-import streamlit as st
+Simport streamlit as st
 st.title("tumhara personal AI")
 
 naam = st.text_input("naam likh")
